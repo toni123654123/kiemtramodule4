@@ -17,9 +17,9 @@ public class City {
     private String name;
     @ManyToOne
     private Country country;
-    @Min(value = 500, message = "lỗi")
+    @Min(value = 500, message = "Tối thiểu 500")
     private Double area;
-    @Min(value = 100, message = "lỗi")
+    @Min(value = 100, message = "Tối thiểu là 100")
     private Long population;
     private double GDP;
     private String description;
