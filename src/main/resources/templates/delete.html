@@ -6,13 +6,13 @@
 </head>
 <center>
     <body>
-    <fieldset class="container">
+    <fieldset>
         <legend>Bạn chắc chắn muốn xoá</legend>
         <form th:action="@{/delete}" method="post">
             <input name="id" type="hidden" th:value="${id}">
-            <input class="btn btn-success" type="submit" value="Xoa">
+            <input type="submit" value="Xoa">
         </form>
-        <a class="btn btn-primary" th:href="@{/list}">Thoat</a>
+        <a th:href="@{/list}">Thoat</a>
     </fieldset>
     </body>
 </center>
