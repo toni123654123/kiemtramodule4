@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import java.util.Optional;
 
 @Service
-public class CityServiceIPL implements ICityService{
+public class CityServiceImpl implements ICityService{
 
     @Autowired
     private ICityRepository iCityRepository;
